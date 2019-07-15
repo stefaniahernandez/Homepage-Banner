@@ -1,0 +1,69 @@
+#slide_1 {
+    height: 20em;
+    background-color: orange;
+}
+#image {
+    background-image: url('../images/10off-dog-cat-071019-img-products-435w-280h-d.png');
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    display: block;
+}
+#text {
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+}
+#slide_1 h1 {
+    font-size: 4em;
+}
+#slide_1 p{
+    font-weight: 100;
+    font-size: 1.5em;
+}
+#cta {
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    color: dodgerblue;
+    padding: 10px 15px;
+    margin: auto 10px;
+    font-weight: 800;
+}
+#cta:hover {
+    background-color: blue;
+    border-color: blue;
+}
+#disclaimer, #disclaimer a {
+    font-size: .7em!important;
+    margin-top: 1em;
+}
+#disclaimer a {
+    color: white;
+    font-size: 1em!important;
+    text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 420px) {
+    #image {display: none;}
+    #text {margin: 1em 2em;}
+    #text h1 {font-size: 3em;}
+    #text h2 {font-size: 1.5em; font-weight: 100;}
+    #text p {font-size: .9em;}
+    #cta {padding: 5px;}
+}
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    #image {display: none;}
+    #text {margin: 1em 1.5em;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 975px) {
+    #image {display: none;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    #image {margin: 1em 1em 1em 3em;}
+    #text {margin: 1em 3em 1em 1em;}
+}
